@@ -1,0 +1,385 @@
+단어 집합의 크기 : 40
+{'<unk>': 0, '<pad>': 1, '<sos>': 2, '<eos>': 3, ' ': 4, '1': 5, '0': 6, '-': 7, '9': 8, '2': 9, ',': 10, '7': 11, '8': 12, 'a': 13, 'e': 14, '3': 15, 'r': 16, '5': 17, '4': 18, '6': 19, '/': 20, 'u': 21, 'y': 22, 'd': 23, 'n': 24, 'm': 25, 's': 26, 't': 27, 'b': 28, 'o': 29, 'j': 30, 'c': 31, 'p': 32, 'l': 33, 'f': 34, 'h': 35, 'i': 36, 'v': 37, 'g': 38, 'w': 39}
+train size:  45000 valid size:  5000
+No Model Found!!!
+epoch:   1, setp:   500, loss:     1.0457, elapsed:         39	seq_acc:     0.0000	8/17/84                       | <sos>1984-08-17<eos> --> 1975-01-12<eos>
+epoch:   1, setp:  1000, loss:     0.7496, elapsed:         77	seq_acc:     0.0312	june 22, 1991                 | <sos>1991-06-22<eos> --> 1992-09-10<eos>
+valid_loss:     0.7071,char_acc:     0.7271, seq_acc:     0.0024 
+epoch:   2, setp:  1500, loss:     0.7063, elapsed:        117	seq_acc:     0.0000	april 3, 2001                 | <sos>2001-04-03<eos> --> 2005-01-12<eos>
+epoch:   2, setp:  2000, loss:     0.6658, elapsed:        155	seq_acc:     0.0000	9/9/09                        | <sos>2009-09-09<eos> --> 1009-09-19<eos>
+epoch:   2, setp:  2500, loss:     0.6299, elapsed:        194	seq_acc:     0.0000	6/1/88                        | <sos>1988-06-01<eos> --> 1981-01-11<eos>
+valid_loss:     0.5162,char_acc:     0.7951, seq_acc:     0.0204 
+epoch:   3, setp:  3000, loss:     0.5531, elapsed:        234	seq_acc:     0.0000	aug 4, 1989                   | <sos>1989-08-04<eos> --> 1998-08-09<eos>
+epoch:   3, setp:  3500, loss:     0.5295, elapsed:        272	seq_acc:     0.0312	6/3/79                        | <sos>1979-06-03<eos> --> 1979-03-03<eos>
+epoch:   3, setp:  4000, loss:     0.4452, elapsed:        311	seq_acc:     0.0938	march 23, 1994                | <sos>1994-03-23<eos> --> 1995-03-23<eos>
+valid_loss:     0.3787,char_acc:     0.8457, seq_acc:     0.0760 
+epoch:   4, setp:  4500, loss:     0.4271, elapsed:        350	seq_acc:     0.0312	mar 24, 1987                  | <sos>1987-03-24<eos> --> 1976-02-26<eos>
+epoch:   4, setp:  5000, loss:     0.4426, elapsed:        389	seq_acc:     0.0625	8/26/70                       | <sos>1970-08-26<eos> --> 2980-08-26<eos>
+epoch:   4, setp:  5500, loss:     0.3772, elapsed:        428	seq_acc:     0.1562	6/17/77                       | <sos>1977-06-17<eos> --> 1977-06-17<eos>
+valid_loss:     0.3020,char_acc:     0.8760, seq_acc:     0.1548 
+epoch:   5, setp:  6000, loss:     0.2837, elapsed:        468	seq_acc:     0.1875	6/19/02                       | <sos>2002-06-19<eos> --> 2002-06-09<eos>
+epoch:   5, setp:  6500, loss:     0.3048, elapsed:        508	seq_acc:     0.1875	10/30/89                      | <sos>1989-10-30<eos> --> 1999-10-30<eos>
+epoch:   5, setp:  7000, loss:     0.2525, elapsed:        548	seq_acc:     0.2188	december 24, 2007             | <sos>2007-12-24<eos> --> 2004-12-04<eos>
+valid_loss:     0.2708,char_acc:     0.8913, seq_acc:     0.2114 
+epoch:   6, setp:  7500, loss:     0.2263, elapsed:        586	seq_acc:     0.2812	12/5/98                       | <sos>1998-12-05<eos> --> 1999-02-05<eos>
+epoch:   6, setp:  8000, loss:     0.2116, elapsed:        625	seq_acc:     0.4375	jan 12, 2002                  | <sos>2002-01-12<eos> --> 2011-01-22<eos>
+valid_loss:     0.2951,char_acc:     0.8860, seq_acc:     0.2144 
+epoch:   7, setp:  8500, loss:     0.2288, elapsed:        665	seq_acc:     0.2812	april 3, 2003                 | <sos>2003-04-03<eos> --> 2003-04-03<eos>
+epoch:   7, setp:  9000, loss:     0.1912, elapsed:        705	seq_acc:     0.4375	1/25/13                       | <sos>2013-01-25<eos> --> 2013-01-25<eos>
+epoch:   7, setp:  9500, loss:     0.1329, elapsed:        745	seq_acc:     0.5000	4/13/16                       | <sos>2016-04-13<eos> --> 2016-04-13<eos>
+valid_loss:     0.2780,char_acc:     0.8921, seq_acc:     0.2128 
+epoch:   8, setp: 10000, loss:     0.1816, elapsed:        784	seq_acc:     0.4375	5/22/05                       | <sos>2005-05-22<eos> --> 2005-05-22<eos>
+epoch:   8, setp: 10500, loss:     0.1653, elapsed:        823	seq_acc:     0.3125	dec 14, 1973                  | <sos>1973-12-14<eos> --> 1973-12-15<eos>
+epoch:   8, setp: 11000, loss:     0.1726, elapsed:        861	seq_acc:     0.4062	apr 27, 1972                  | <sos>1972-04-27<eos> --> 1972-04-27<eos>
+valid_loss:     0.2999,char_acc:     0.8831, seq_acc:     0.1796 
+epoch:   9, setp: 11500, loss:     0.1061, elapsed:        901	seq_acc:     0.5938	jan 30, 1978                  | <sos>1978-01-30<eos> --> 1988-01-30<eos>
+epoch:   9, setp: 12000, loss:     0.0938, elapsed:        940	seq_acc:     0.7188	oct 3, 1989                   | <sos>1989-10-03<eos> --> 1999-10-03<eos>
+epoch:   9, setp: 12500, loss:     0.1167, elapsed:        980	seq_acc:     0.4688	monday, october 5, 2009       | <sos>2009-10-05<eos> --> 2009010-05<eos>
+valid_loss:     0.3570,char_acc:     0.8683, seq_acc:     0.1350 
+epoch:  10, setp: 13000, loss:     0.1016, elapsed:       1019	seq_acc:     0.5938	tuesday, april 11, 1978       | <sos>1978-04-11<eos> --> 1988-04-11<eos>
+epoch:  10, setp: 13500, loss:     0.0815, elapsed:       1058	seq_acc:     0.5625	march 25, 2002                | <sos>2002-03-25<eos> --> 2002-03-25<eos>
+epoch:  10, setp: 14000, loss:     0.1148, elapsed:       1097	seq_acc:     0.6250	sunday, january 24, 1988      | <sos>1988-01-24<eos> --> 1988-01-24<eos>
+valid_loss:     0.3543,char_acc:     0.8715, seq_acc:     0.1412 
+epoch:  11, setp: 14500, loss:     0.0498, elapsed:       1136	seq_acc:     0.8125	sunday, february 25, 2001     | <sos>2001-02-25<eos> --> 2001-02-25<eos>
+epoch:  11, setp: 15000, loss:     0.0684, elapsed:       1175	seq_acc:     0.7188	july 28, 1991                 | <sos>1991-07-28<eos> --> 1981-07-28<eos>
+valid_loss:     0.3740,char_acc:     0.8563, seq_acc:     0.1096 
+epoch:  12, setp: 15500, loss:     0.0814, elapsed:       1214	seq_acc:     0.6250	may 2, 1987                   | <sos>1987-05-02<eos> --> 1977-05-22<eos>
+epoch:  12, setp: 16000, loss:     0.0844, elapsed:       1254	seq_acc:     0.6562	oct 23, 1981                  | <sos>1981-10-23<eos> --> 1981-10-23<eos>
+epoch:  12, setp: 16500, loss:     0.0786, elapsed:       1293	seq_acc:     0.7500	friday, june 19, 1992         | <sos>1992-06-19<eos> --> 1992-06-19<eos>
+valid_loss:     0.4046,char_acc:     0.8586, seq_acc:     0.1130 
+epoch:  13, setp: 17000, loss:     0.0756, elapsed:       1333	seq_acc:     0.7500	may 27, 2017                  | <sos>2017-05-27<eos> --> 2017-05-27<eos>
+epoch:  13, setp: 17500, loss:     0.1050, elapsed:       1372	seq_acc:     0.6562	1/8/17                        | <sos>2017-01-08<eos> --> 1017-01-08<eos>
+epoch:  13, setp: 18000, loss:     0.0725, elapsed:       1411	seq_acc:     0.6562	jan 10, 1988                  | <sos>1988-01-10<eos> --> 1988-01-10<eos>
+valid_loss:     0.4392,char_acc:     0.8523, seq_acc:     0.0916 
+epoch:  14, setp: 18500, loss:     0.0197, elapsed:       1452	seq_acc:     0.9688	jul 16, 1974                  | <sos>1974-07-16<eos> --> 1974-07-16<eos>
+epoch:  14, setp: 19000, loss:     0.0702, elapsed:       1492	seq_acc:     0.7500	saturday, july 4, 2015        | <sos>2015-07-04<eos> --> 2015-07-04<eos>
+epoch:  14, setp: 19500, loss:     0.0429, elapsed:       1533	seq_acc:     0.8125	11/15/98                      | <sos>1998-11-15<eos> --> 1988-11-15<eos>
+valid_loss:     0.5747,char_acc:     0.8128, seq_acc:     0.0378 
+epoch:  15, setp: 20000, loss:     0.0666, elapsed:       1574	seq_acc:     0.6562	november 12, 2011             | <sos>2011-11-12<eos> --> 2011-11-12<eos>
+epoch:  15, setp: 20500, loss:     0.0558, elapsed:       1614	seq_acc:     0.7812	apr 25, 2003                  | <sos>2003-04-25<eos> --> 2003-04-25<eos>
+epoch:  15, setp: 21000, loss:     0.0284, elapsed:       1653	seq_acc:     0.8750	9/22/14                       | <sos>2014-09-22<eos> --> 2014-09-22<eos>
+valid_loss:     0.4721,char_acc:     0.8440, seq_acc:     0.0768 
+epoch:  16, setp: 21500, loss:     0.0825, elapsed:       1693	seq_acc:     0.6562	friday, may 19, 1989          | <sos>1989-05-19<eos> --> 1999-05-19<eos>
+epoch:  16, setp: 22000, loss:     0.0360, elapsed:       1732	seq_acc:     0.8438	april 3, 2017                 | <sos>2017-04-03<eos> --> 2017-04-03<eos>
+epoch:  16, setp: 22500, loss:     0.0369, elapsed:       1771	seq_acc:     0.8438	saturday, october 10, 1981    | <sos>1981-10-10<eos> --> 1981-10-10<eos>
+valid_loss:     0.5337,char_acc:     0.8287, seq_acc:     0.0612 
+epoch:  17, setp: 23000, loss:     0.0423, elapsed:       1811	seq_acc:     0.7500	may 29, 1982                  | <sos>1982-05-29<eos> --> 1982-05-29<eos>
+epoch:  17, setp: 23500, loss:     0.0589, elapsed:       1850	seq_acc:     0.8125	5/9/84                        | <sos>1984-05-09<eos> --> 1984-05-09<eos>
+valid_loss:     0.5298,char_acc:     0.8242, seq_acc:     0.0562 
+epoch:  18, setp: 24000, loss:     0.0660, elapsed:       1889	seq_acc:     0.7812	sep 23, 1992                  | <sos>1992-09-23<eos> --> 1992-09-23<eos>
+epoch:  18, setp: 24500, loss:     0.0717, elapsed:       1928	seq_acc:     0.7500	february 10, 1974             | <sos>1974-02-10<eos> --> 1974-02-10<eos>
+epoch:  18, setp: 25000, loss:     0.0461, elapsed:       1968	seq_acc:     0.8438	august 29, 1983               | <sos>1983-08-29<eos> --> 1983-08-29<eos>
+valid_loss:     0.5666,char_acc:     0.8106, seq_acc:     0.0452 
+epoch:  19, setp: 25500, loss:     0.0399, elapsed:       2007	seq_acc:     0.8125	friday, may 3, 2013           | <sos>2013-05-03<eos> --> 2013-05-03<eos>
+epoch:  19, setp: 26000, loss:     0.0512, elapsed:       2046	seq_acc:     0.8438	1/25/01                       | <sos>2001-01-25<eos> --> 2011-01-25<eos>
+epoch:  19, setp: 26500, loss:     0.0339, elapsed:       2086	seq_acc:     0.8750	8/26/05                       | <sos>2005-08-26<eos> --> 2005-08-26<eos>
+valid_loss:     0.6098,char_acc:     0.8077, seq_acc:     0.0406 
+epoch:  20, setp: 27000, loss:     0.0300, elapsed:       2125	seq_acc:     0.8125	may 2, 2016                   | <sos>2016-05-02<eos> --> 2016-05-02<eos>
+epoch:  20, setp: 27500, loss:     0.0715, elapsed:       2164	seq_acc:     0.7500	9/11/81                       | <sos>1981-09-11<eos> --> 1981-09-11<eos>
+epoch:  20, setp: 28000, loss:     0.0242, elapsed:       2203	seq_acc:     0.9375	february 16, 2013             | <sos>2013-02-16<eos> --> 2013-02-16<eos>
+valid_loss:     0.6154,char_acc:     0.8117, seq_acc:     0.0472 
+epoch:  21, setp: 28500, loss:     0.0421, elapsed:       2241	seq_acc:     0.8125	may 17, 1998                  | <sos>1998-05-17<eos> --> 1998-05-17<eos>
+epoch:  21, setp: 29000, loss:     0.0313, elapsed:       2281	seq_acc:     0.8750	apr 26, 1982                  | <sos>1982-04-26<eos> --> 1982-04-26<eos>
+epoch:  21, setp: 29500, loss:     0.0238, elapsed:       2320	seq_acc:     0.8438	oct 3, 1993                   | <sos>1993-10-03<eos> --> 1993-10-03<eos>
+valid_loss:     0.6522,char_acc:     0.7977, seq_acc:     0.0334 
+epoch:  22, setp: 30000, loss:     0.0575, elapsed:       2360	seq_acc:     0.8125	july 27, 1972                 | <sos>1972-07-27<eos> --> 1972-07-27<eos>
+epoch:  22, setp: 30500, loss:     0.0636, elapsed:       2399	seq_acc:     0.6562	december 12, 1975             | <sos>1975-12-12<eos> --> 1975-12-22<eos>
+valid_loss:     0.7407,char_acc:     0.7821, seq_acc:     0.0238 
+epoch:  23, setp: 31000, loss:     0.0674, elapsed:       2439	seq_acc:     0.7812	saturday, january 17, 1970    | <sos>1970-01-17<eos> --> 1970-01-17<eos>
+epoch:  23, setp: 31500, loss:     0.0409, elapsed:       2478	seq_acc:     0.9062	saturday, march 13, 1993      | <sos>1993-03-13<eos> --> 1993-03-13<eos>
+epoch:  23, setp: 32000, loss:     0.0276, elapsed:       2516	seq_acc:     0.8438	apr 11, 1999                  | <sos>1999-04-11<eos> --> 1999-04-11<eos>
+valid_loss:     0.6740,char_acc:     0.7934, seq_acc:     0.0300 
+epoch:  24, setp: 32500, loss:     0.0195, elapsed:       2555	seq_acc:     0.9062	7/4/02                        | <sos>2002-07-04<eos> --> 2002-07-04<eos>
+epoch:  24, setp: 33000, loss:     0.0822, elapsed:       2595	seq_acc:     0.8125	december 30, 2013             | <sos>2013-12-30<eos> --> 2013-12-30<eos>
+epoch:  24, setp: 33500, loss:     0.0387, elapsed:       2634	seq_acc:     0.9062	jul 4, 2001                   | <sos>2001-07-04<eos> --> 2001-07-04<eos>
+valid_loss:     0.7232,char_acc:     0.7847, seq_acc:     0.0228 
+epoch:  25, setp: 34000, loss:     0.0223, elapsed:       2674	seq_acc:     0.9375	august 20, 1998               | <sos>1998-08-20<eos> --> 1988-08-20<eos>
+epoch:  25, setp: 34500, loss:     0.0521, elapsed:       2714	seq_acc:     0.8438	mar 31, 1989                  | <sos>1989-03-31<eos> --> 1999-03-11<eos>
+epoch:  25, setp: 35000, loss:     0.0217, elapsed:       2753	seq_acc:     0.8750	8/10/88                       | <sos>1988-08-10<eos> --> 1988-08-10<eos>
+valid_loss:     0.7461,char_acc:     0.7781, seq_acc:     0.0178 
+epoch:  26, setp: 35500, loss:     0.0227, elapsed:       2792	seq_acc:     0.8750	december 11, 1971             | <sos>1971-12-11<eos> --> 1971-12-11<eos>
+epoch:  26, setp: 36000, loss:     0.0168, elapsed:       2830	seq_acc:     0.9375	sep 10, 1996                  | <sos>1996-09-10<eos> --> 1996-09-10<eos>
+epoch:  26, setp: 36500, loss:     0.0178, elapsed:       2868	seq_acc:     0.9375	sunday, september 10, 1995    | <sos>1995-09-10<eos> --> 1995-09-10<eos>
+valid_loss:     0.6532,char_acc:     0.7945, seq_acc:     0.0286 
+epoch:  27, setp: 37000, loss:     0.0391, elapsed:       2907	seq_acc:     0.9375	may 26, 1993                  | <sos>1993-05-26<eos> --> 1993-05-26<eos>
+epoch:  27, setp: 37500, loss:     0.0378, elapsed:       2945	seq_acc:     0.9375	december 30, 1985             | <sos>1985-12-30<eos> --> 1985-12-30<eos>
+valid_loss:     0.6337,char_acc:     0.7987, seq_acc:     0.0306 
+epoch:  28, setp: 38000, loss:     0.0160, elapsed:       2982	seq_acc:     0.9062	7/21/08                       | <sos>2008-07-21<eos> --> 2008-07-22<eos>
+epoch:  28, setp: 38500, loss:     0.0307, elapsed:       3020	seq_acc:     0.8750	friday, september 13, 1991    | <sos>1991-09-13<eos> --> 1991-09-13<eos>
+epoch:  28, setp: 39000, loss:     0.0143, elapsed:       3058	seq_acc:     0.9375	jan 4, 1977                   | <sos>1977-01-04<eos> --> 1977-01-04<eos>
+valid_loss:     0.6788,char_acc:     0.7791, seq_acc:     0.0220 
+epoch:  29, setp: 39500, loss:     0.0405, elapsed:       3097	seq_acc:     0.8125	oct 21, 1997                  | <sos>1997-10-21<eos> --> 1997-10-11<eos>
+epoch:  29, setp: 40000, loss:     0.0266, elapsed:       3136	seq_acc:     0.8750	7/11/73                       | <sos>1973-07-11<eos> --> 1973-07-12<eos>
+epoch:  29, setp: 40500, loss:     0.0414, elapsed:       3174	seq_acc:     0.9062	may 22, 2001                  | <sos>2001-05-22<eos> --> 2001-05-22<eos>
+valid_loss:     0.6723,char_acc:     0.7966, seq_acc:     0.0270 
+epoch:  30, setp: 41000, loss:     0.0189, elapsed:       3213	seq_acc:     0.9062	jan 18, 1991                  | <sos>1991-01-18<eos> --> 1991-01-18<eos>
+epoch:  30, setp: 41500, loss:     0.0149, elapsed:       3252	seq_acc:     0.9375	wednesday, august 6, 1997     | <sos>1997-08-06<eos> --> 1997-08-06<eos>
+epoch:  30, setp: 42000, loss:     0.0032, elapsed:       3290	seq_acc:     1.0000	jan 20, 1973                  | <sos>1973-01-20<eos> --> 1973-01-20<eos>
+valid_loss:     0.6917,char_acc:     0.7792, seq_acc:     0.0228 
+epoch:  31, setp: 42500, loss:     0.0177, elapsed:       3329	seq_acc:     0.9688	nov 27, 1983                  | <sos>1983-11-27<eos> --> 1983-11-27<eos>
+epoch:  31, setp: 43000, loss:     0.0584, elapsed:       3368	seq_acc:     0.8438	thursday, july 2, 2009        | <sos>2009-07-02<eos> --> 2009-07-02<eos>
+epoch:  31, setp: 43500, loss:     0.0217, elapsed:       3408	seq_acc:     0.8750	january 14, 2016              | <sos>2016-01-14<eos> --> 2016-01-14<eos>
+valid_loss:     0.7194,char_acc:     0.7815, seq_acc:     0.0214 
+epoch:  32, setp: 44000, loss:     0.0294, elapsed:       3447	seq_acc:     0.8750	november 25, 1990             | <sos>1990-11-25<eos> --> 1990-11125<eos>
+epoch:  32, setp: 44500, loss:     0.0182, elapsed:       3486	seq_acc:     0.9375	feb 20, 2008                  | <sos>2008-02-20<eos> --> 2008-02-20<eos>
+epoch:  32, setp: 45000, loss:     0.0090, elapsed:       3527	seq_acc:     0.9688	11/28/16                      | <sos>2016-11-28<eos> --> 2016-11-28<eos>
+valid_loss:     0.7223,char_acc:     0.7447, seq_acc:     0.0164 
+epoch:  33, setp: 45500, loss:     0.0374, elapsed:       3567	seq_acc:     0.8750	oct 18, 2016                  | <sos>2016-10-18<eos> --> 2016-10018<eos>
+epoch:  33, setp: 46000, loss:     0.0117, elapsed:       3607	seq_acc:     0.9688	february 28, 2016             | <sos>2016-02-28<eos> --> 2016-02-28<eos>
+valid_loss:     0.7516,char_acc:     0.7513, seq_acc:     0.0118 
+epoch:  34, setp: 46500, loss:     0.0219, elapsed:       3647	seq_acc:     0.9688	saturday, july 8, 1995        | <sos>1995-07-08<eos> --> 1995-07-08<eos>
+epoch:  34, setp: 47000, loss:     0.0174, elapsed:       3686	seq_acc:     0.9375	1/25/04                       | <sos>2004-01-25<eos> --> 2004-01-25<eos>
+epoch:  34, setp: 47500, loss:     0.0576, elapsed:       3725	seq_acc:     0.8125	nov 4, 2009                   | <sos>2009-11-04<eos> --> 2909-11-04<eos>
+valid_loss:     0.7270,char_acc:     0.7812, seq_acc:     0.0172 
+epoch:  35, setp: 48000, loss:     0.0288, elapsed:       3767	seq_acc:     0.9062	thursday, january 5, 2006     | <sos>2006-01-05<eos> --> 2006-01-05<eos>
+epoch:  35, setp: 48500, loss:     0.0095, elapsed:       3807	seq_acc:     0.9688	5/23/99                       | <sos>1999-05-23<eos> --> 1999-05-23<eos>
+epoch:  35, setp: 49000, loss:     0.0233, elapsed:       3846	seq_acc:     0.9062	3/29/85                       | <sos>1985-03-29<eos> --> 1985-03-29<eos>
+valid_loss:     0.6629,char_acc:     0.7771, seq_acc:     0.0206 
+epoch:  36, setp: 49500, loss:     0.0326, elapsed:       3887	seq_acc:     0.9062	august 22, 1979               | <sos>1979-08-22<eos> --> 1999-08-22<eos>
+epoch:  36, setp: 50000, loss:     0.0205, elapsed:       3926	seq_acc:     0.9375	8/30/79                       | <sos>1979-08-30<eos> --> 1979-08-30<eos>
+epoch:  36, setp: 50500, loss:     0.0207, elapsed:       3966	seq_acc:     0.8750	5/7/78                        | <sos>1978-05-07<eos> --> 1978-05-07<eos>
+valid_loss:     0.7436,char_acc:     0.7627, seq_acc:     0.0162 
+epoch:  37, setp: 51000, loss:     0.0403, elapsed:       4006	seq_acc:     0.9062	10/4/15                       | <sos>2015-10-04<eos> --> 2015-10-04<eos>
+epoch:  37, setp: 51500, loss:     0.0331, elapsed:       4046	seq_acc:     0.9062	saturday, august 7, 2010      | <sos>2010-08-07<eos> --> 2010-08-07<eos>
+epoch:  37, setp: 52000, loss:     0.0186, elapsed:       4086	seq_acc:     0.9062	tuesday, may 18, 2004         | <sos>2004-05-18<eos> --> 2004-05-18<eos>
+valid_loss:     0.7519,char_acc:     0.7657, seq_acc:     0.0124 
+epoch:  38, setp: 52500, loss:     0.0399, elapsed:       4126	seq_acc:     0.9062	july 10, 1990                 | <sos>1990-07-10<eos> --> 1990-07-10<eos>
+epoch:  38, setp: 53000, loss:     0.0313, elapsed:       4166	seq_acc:     0.8438	3/4/85                        | <sos>1985-03-04<eos> --> 1985-03-04<eos>
+valid_loss:     0.6831,char_acc:     0.7864, seq_acc:     0.0204 
+epoch:  39, setp: 53500, loss:     0.0169, elapsed:       4206	seq_acc:     0.9062	3/20/00                       | <sos>2000-03-20<eos> --> 2000-03-20<eos>
+epoch:  39, setp: 54000, loss:     0.0401, elapsed:       4246	seq_acc:     0.9375	sep 29, 2016                  | <sos>2016-09-29<eos> --> 2016-09-29<eos>
+epoch:  39, setp: 54500, loss:     0.0198, elapsed:       4286	seq_acc:     0.9062	october 22, 1996              | <sos>1996-10-22<eos> --> 1996-10-22<eos>
+valid_loss:     0.9984,char_acc:     0.7144, seq_acc:     0.0042 
+epoch:  40, setp: 55000, loss:     0.0258, elapsed:       4326	seq_acc:     0.9688	tuesday, november 22, 2005    | <sos>2005-11-22<eos> --> 2005-11-22<eos>
+epoch:  40, setp: 55500, loss:     0.0233, elapsed:       4366	seq_acc:     0.9062	september 9, 1994             | <sos>1994-09-09<eos> --> 1994-09-09<eos>
+epoch:  40, setp: 56000, loss:     0.0186, elapsed:       4404	seq_acc:     0.9375	may 19, 2016                  | <sos>2016-05-19<eos> --> 2016-05-19<eos>
+valid_loss:     0.7211,char_acc:     0.7647, seq_acc:     0.0144 
+epoch:  41, setp: 56500, loss:     0.0172, elapsed:       4444	seq_acc:     0.9375	september 12, 1974            | <sos>1974-09-12<eos> --> 1974-09-12<eos>
+epoch:  41, setp: 57000, loss:     0.0128, elapsed:       4484	seq_acc:     0.9375	thursday, august 4, 1977      | <sos>1977-08-04<eos> --> 1977-08-04<eos>
+epoch:  41, setp: 57500, loss:     0.0115, elapsed:       4523	seq_acc:     0.9375	mar 29, 1999                  | <sos>1999-03-29<eos> --> 1999-03-29<eos>
+valid_loss:     0.8572,char_acc:     0.7241, seq_acc:     0.0056 
+epoch:  42, setp: 58000, loss:     0.0118, elapsed:       4563	seq_acc:     0.9688	4/2/97                        | <sos>1997-04-02<eos> --> 1977-04-02<eos>
+epoch:  42, setp: 58500, loss:     0.0106, elapsed:       4603	seq_acc:     0.9688	jul 15, 2006                  | <sos>2006-07-15<eos> --> 2006-17-15<eos>
+epoch:  42, setp: 59000, loss:     0.0164, elapsed:       4643	seq_acc:     0.9062	november 15, 2002             | <sos>2002-11-15<eos> --> 2002-11-15<eos>
+valid_loss:     0.8124,char_acc:     0.7162, seq_acc:     0.0088 
+epoch:  43, setp: 59500, loss:     0.0293, elapsed:       4682	seq_acc:     0.9062	1/18/82                       | <sos>1982-01-18<eos> --> 1982-01-18<eos>
+epoch:  43, setp: 60000, loss:     0.0234, elapsed:       4723	seq_acc:     0.9062	sunday, january 13, 2013      | <sos>2013-01-13<eos> --> 2013-01-13<eos>
+epoch:  43, setp: 60500, loss:     0.0321, elapsed:       4763	seq_acc:     0.8750	7/14/73                       | <sos>1973-07-14<eos> --> 19<eos>3-07-14<eos>
+valid_loss:     0.6813,char_acc:     0.7628, seq_acc:     0.0238 
+epoch:  44, setp: 61000, loss:     0.0250, elapsed:       4804	seq_acc:     0.9062	april 16, 1979                | <sos>1979-04-16<eos> --> 1979-04-16<eos>
+epoch:  44, setp: 61500, loss:     0.0244, elapsed:       4844	seq_acc:     0.9375	saturday, december 8, 1990    | <sos>1990-12-08<eos> --> 1990-12-08<eos>
+valid_loss:     0.8620,char_acc:     0.7442, seq_acc:     0.0090 
+epoch:  45, setp: 62000, loss:     0.0533, elapsed:       4884	seq_acc:     0.8750	friday, january 3, 1975       | <sos>1975-01-03<eos> --> 1975-01-03<eos>
+epoch:  45, setp: 62500, loss:     0.0389, elapsed:       4923	seq_acc:     0.8438	march 14, 1997                | <sos>1997-03-14<eos> --> 1997-03-14<eos>
+epoch:  45, setp: 63000, loss:     0.0113, elapsed:       4963	seq_acc:     0.9688	apr 13, 1992                  | <sos>1992-04-13<eos> --> 1992-04-13<eos>
+valid_loss:     0.7595,char_acc:     0.7581, seq_acc:     0.0130 
+epoch:  46, setp: 63500, loss:     0.0126, elapsed:       5003	seq_acc:     0.9375	monday, october 28, 1985      | <sos>1985-10-28<eos> --> 1985-10-28<eos>
+epoch:  46, setp: 64000, loss:     0.0178, elapsed:       5042	seq_acc:     0.9375	aug 29, 2009                  | <sos>2009-08-29<eos> --> 2009-08-29<eos>
+epoch:  46, setp: 64500, loss:     0.0677, elapsed:       5082	seq_acc:     0.8750	monday, february 23, 1970     | <sos>1970-02-23<eos> --> 1970-02-23<eos>
+valid_loss:     0.7644,char_acc:     0.7484, seq_acc:     0.0120 
+epoch:  47, setp: 65000, loss:     0.0086, elapsed:       5121	seq_acc:     1.0000	aug 1, 2009                   | <sos>2009-08-01<eos> --> 2009-08-01<eos>
+epoch:  47, setp: 65500, loss:     0.0263, elapsed:       5161	seq_acc:     0.9375	june 7, 1987                  | <sos>1987-06-07<eos> --> 1987-06-07<eos>
+epoch:  47, setp: 66000, loss:     0.0219, elapsed:       5201	seq_acc:     0.9062	saturday, july 21, 2001       | <sos>2001-07-21<eos> --> 2001-07-21<eos>
+valid_loss:     0.8068,char_acc:     0.7610, seq_acc:     0.0124 
+epoch:  48, setp: 66500, loss:     0.0405, elapsed:       5240	seq_acc:     0.9375	sunday, march 20, 2005        | <sos>2005-03-20<eos> --> 2005-03-20<eos>
+epoch:  48, setp: 67000, loss:     0.0148, elapsed:       5280	seq_acc:     0.9375	jul 23, 2007                  | <sos>2007-07-23<eos> --> 2007-07-23<eos>
+epoch:  48, setp: 67500, loss:     0.0031, elapsed:       5318	seq_acc:     1.0000	10/3/99                       | <sos>1999-10-03<eos> --> 1999-10-03<eos>
+valid_loss:     0.7954,char_acc:     0.7532, seq_acc:     0.0162 
+epoch:  49, setp: 68000, loss:     0.0029, elapsed:       5358	seq_acc:     1.0000	monday, may 22, 2000          | <sos>2000-05-22<eos> --> 2000-05-22<eos>
+epoch:  49, setp: 68500, loss:     0.0192, elapsed:       5398	seq_acc:     0.9062	june 24, 2011                 | <sos>2011-06-24<eos> --> 2011-06-24<eos>
+valid_loss:     0.8741,char_acc:     0.7117, seq_acc:     0.0060 
+epoch:  50, setp: 69000, loss:     0.0781, elapsed:       5438	seq_acc:     0.8125	monday, december 12, 2011     | <sos>2011-12-12<eos> --> 2011-12-12<eos>
+epoch:  50, setp: 69500, loss:     0.0032, elapsed:       5478	seq_acc:     1.0000	2/27/15                       | <sos>2015-02-27<eos> --> 2015-02-27<eos>
+epoch:  50, setp: 70000, loss:     0.0049, elapsed:       5517	seq_acc:     1.0000	jan 30, 1978                  | <sos>1978-01-30<eos> --> 1978-01-30<eos>
+valid_loss:     0.9212,char_acc:     0.7286, seq_acc:     0.0040 
+epoch:  51, setp: 70500, loss:     0.0282, elapsed:       5557	seq_acc:     0.9375	may 18, 1983                  | <sos>1983-05-18<eos> --> 1983-05-18<eos>
+epoch:  51, setp: 71000, loss:     0.0173, elapsed:       5597	seq_acc:     0.9688	monday, june 16, 2003         | <sos>2003-06-16<eos> --> 2003-06-16<eos>
+epoch:  51, setp: 71500, loss:     0.0330, elapsed:       5635	seq_acc:     0.9062	august 30, 1985               | <sos>1985-08-30<eos> --> 1985-08-30<eos>
+valid_loss:     0.6595,char_acc:     0.7631, seq_acc:     0.0136 
+epoch:  52, setp: 72000, loss:     0.0061, elapsed:       5674	seq_acc:     0.9688	monday, february 20, 1989     | <sos>1989-02-20<eos> --> 1989-02-20<eos>
+epoch:  52, setp: 72500, loss:     0.0222, elapsed:       5714	seq_acc:     0.9375	monday, march 28, 1994        | <sos>1994-03-28<eos> --> 1994-03-28<eos>
+epoch:  52, setp: 73000, loss:     0.0269, elapsed:       5754	seq_acc:     0.9062	december 18, 1989             | <sos>1989-12-18<eos> --> 1989-12-18<eos>
+valid_loss:     0.7358,char_acc:     0.7558, seq_acc:     0.0112 
+epoch:  53, setp: 73500, loss:     0.0525, elapsed:       5793	seq_acc:     0.8438	jul 15, 2014                  | <sos>2014-07-15<eos> --> 2014-07-15<eos>
+epoch:  53, setp: 74000, loss:     0.0032, elapsed:       5832	seq_acc:     1.0000	october 25, 1991              | <sos>1991-10-25<eos> --> 1991-10-25<eos>
+epoch:  53, setp: 74500, loss:     0.0082, elapsed:       5870	seq_acc:     1.0000	december 19, 1978             | <sos>1978-12-19<eos> --> 1978-12-19<eos>
+valid_loss:     1.0302,char_acc:     0.7218, seq_acc:     0.0014 
+epoch:  54, setp: 75000, loss:     0.0167, elapsed:       5909	seq_acc:     0.9688	jun 29, 1988                  | <sos>1988-06-29<eos> --> 1988-06-29<eos>
+epoch:  54, setp: 75500, loss:     0.0098, elapsed:       5948	seq_acc:     0.9688	dec 13, 1971                  | <sos>1971-12-13<eos> --> 1971-12-13<eos>
+valid_loss:     0.7174,char_acc:     0.7716, seq_acc:     0.0144 
+epoch:  55, setp: 76000, loss:     0.0142, elapsed:       5988	seq_acc:     0.9688	7/24/87                       | <sos>1987-07-24<eos> --> 1987-07-24<eos>
+epoch:  55, setp: 76500, loss:     0.0222, elapsed:       6028	seq_acc:     0.9062	3/1/03                        | <sos>2003-03-01<eos> --> 2003-03-01<eos>
+epoch:  55, setp: 77000, loss:     0.0067, elapsed:       6067	seq_acc:     0.9688	feb 6, 1993                   | <sos>1993-02-06<eos> --> 1993-02-06<eos>
+valid_loss:     0.7870,char_acc:     0.7602, seq_acc:     0.0160 
+epoch:  56, setp: 77500, loss:     0.0064, elapsed:       6105	seq_acc:     0.9688	nov 17, 1982                  | <sos>1982-11-17<eos> --> 1982-11-17<eos>
+epoch:  56, setp: 78000, loss:     0.0077, elapsed:       6144	seq_acc:     1.0000	sunday, may 14, 1995          | <sos>1995-05-14<eos> --> 1995-05-14<eos>
+epoch:  56, setp: 78500, loss:     0.0093, elapsed:       6182	seq_acc:     0.9688	mar 27, 1994                  | <sos>1994-03-27<eos> --> 1994-03-27<eos>
+valid_loss:     0.8386,char_acc:     0.7349, seq_acc:     0.0064 
+epoch:  57, setp: 79000, loss:     0.0079, elapsed:       6222	seq_acc:     0.9688	august 20, 1970               | <sos>1970-08-20<eos> --> 1970-08-20<eos>
+epoch:  57, setp: 79500, loss:     0.0371, elapsed:       6260	seq_acc:     0.8750	sep 7, 1987                   | <sos>1987-09-07<eos> --> 1987-09-07<eos>
+epoch:  57, setp: 80000, loss:     0.0447, elapsed:       6299	seq_acc:     0.9062	7/25/83                       | <sos>1983-07-25<eos> --> 1983-07-25<eos>
+valid_loss:     0.8130,char_acc:     0.7175, seq_acc:     0.0072 
+epoch:  58, setp: 80500, loss:     0.0434, elapsed:       6338	seq_acc:     0.8750	february 3, 1990              | <sos>1990-02-03<eos> --> 1990-02-03<eos>
+epoch:  58, setp: 81000, loss:     0.0238, elapsed:       6377	seq_acc:     0.8438	jan 7, 1974                   | <sos>1974-01-07<eos> --> 1974-01-07<eos>
+epoch:  58, setp: 81500, loss:     0.0063, elapsed:       6416	seq_acc:     0.9688	january 3, 1987               | <sos>1987-01-03<eos> --> 1987-01-03<eos>
+valid_loss:     0.8871,char_acc:     0.7059, seq_acc:     0.0020 
+epoch:  59, setp: 82000, loss:     0.0161, elapsed:       6456	seq_acc:     0.9688	nov 24, 1990                  | <sos>1990-11-24<eos> --> 1990-11-24<eos>
+epoch:  59, setp: 82500, loss:     0.0284, elapsed:       6495	seq_acc:     0.9062	november 13, 1995             | <sos>1995-11-13<eos> --> 1995-11-13<eos>
+epoch:  59, setp: 83000, loss:     0.0073, elapsed:       6536	seq_acc:     1.0000	7/13/05                       | <sos>2005-07-13<eos> --> 2005-07-13<eos>
+valid_loss:     0.6612,char_acc:     0.7688, seq_acc:     0.0198 
+epoch:  60, setp: 83500, loss:     0.0072, elapsed:       6575	seq_acc:     0.9688	friday, may 26, 1972          | <sos>1972-05-26<eos> --> 1972-05-26<eos>
+epoch:  60, setp: 84000, loss:     0.0068, elapsed:       6614	seq_acc:     0.9688	jan 19, 1970                  | <sos>1970-01-19<eos> --> 1970-01-19<eos>
+valid_loss:     0.9366,char_acc:     0.7182, seq_acc:     0.0036 
+epoch:  61, setp: 84500, loss:     0.0067, elapsed:       6654	seq_acc:     0.9688	wednesday, april 13, 1994     | <sos>1994-04-13<eos> --> 1994-04-13<eos>
+epoch:  61, setp: 85000, loss:     0.0179, elapsed:       6693	seq_acc:     0.9375	jan 18, 1974                  | <sos>1974-01-18<eos> --> 1974-01-18<eos>
+epoch:  61, setp: 85500, loss:     0.0128, elapsed:       6732	seq_acc:     0.9688	sunday, may 7, 2017           | <sos>2017-05-07<eos> --> 2017-05-07<eos>
+valid_loss:     0.7995,char_acc:     0.7488, seq_acc:     0.0110 
+epoch:  62, setp: 86000, loss:     0.0350, elapsed:       6773	seq_acc:     0.9375	friday, may 26, 2006          | <sos>2006-05-26<eos> --> 2006-05-26<eos>
+epoch:  62, setp: 86500, loss:     0.0186, elapsed:       6812	seq_acc:     0.9375	2/7/13                        | <sos>2013-02-07<eos> --> 2013-02-07<eos>
+epoch:  62, setp: 87000, loss:     0.0120, elapsed:       6850	seq_acc:     0.9375	3/29/93                       | <sos>1993-03-29<eos> --> 1993-03-29<eos>
+valid_loss:     0.8067,char_acc:     0.7171, seq_acc:     0.0088 
+epoch:  63, setp: 87500, loss:     0.0085, elapsed:       6889	seq_acc:     0.9688	thursday, october 30, 2003    | <sos>2003-10-30<eos> --> 2003-10-30<eos>
+epoch:  63, setp: 88000, loss:     0.0027, elapsed:       6929	seq_acc:     1.0000	october 4, 1984               | <sos>1984-10-04<eos> --> 1984-10-04<eos>
+epoch:  63, setp: 88500, loss:     0.0114, elapsed:       6967	seq_acc:     0.9375	3/21/83                       | <sos>1983-03-21<eos> --> 1983-03-21<eos>
+valid_loss:     0.8471,char_acc:     0.7403, seq_acc:     0.0088 
+epoch:  64, setp: 89000, loss:     0.0061, elapsed:       7006	seq_acc:     1.0000	october 10, 2010              | <sos>2010-10-10<eos> --> 2010-10-10<eos>
+epoch:  64, setp: 89500, loss:     0.0134, elapsed:       7045	seq_acc:     0.9688	november 22, 1989             | <sos>1989-11-22<eos> --> 1989-11-22<eos>
+epoch:  64, setp: 90000, loss:     0.0178, elapsed:       7085	seq_acc:     0.9688	may 22, 2007                  | <sos>2007-05-22<eos> --> 2007-05-22<eos>
+valid_loss:     0.7728,char_acc:     0.7515, seq_acc:     0.0142 
+epoch:  65, setp: 90500, loss:     0.0032, elapsed:       7124	seq_acc:     1.0000	saturday, january 4, 1986     | <sos>1986-01-04<eos> --> 1986-01-04<eos>
+epoch:  65, setp: 91000, loss:     0.0153, elapsed:       7162	seq_acc:     0.9375	apr 8, 1978                   | <sos>1978-04-08<eos> --> 1978-04-08<eos>
+valid_loss:     0.7510,char_acc:     0.7384, seq_acc:     0.0070 
+epoch:  66, setp: 91500, loss:     0.0097, elapsed:       7202	seq_acc:     0.9688	oct 16, 1992                  | <sos>1992-10-16<eos> --> 1992-10-16<eos>
+epoch:  66, setp: 92000, loss:     0.0034, elapsed:       7240	seq_acc:     1.0000	tuesday, september 3, 1985    | <sos>1985-09-03<eos> --> 1985-09-03<eos>
+epoch:  66, setp: 92500, loss:     0.0138, elapsed:       7279	seq_acc:     0.9688	september 11, 1974            | <sos>1974-09-11<eos> --> 1974-09-11<eos>
+valid_loss:     0.8366,char_acc:     0.7066, seq_acc:     0.0064 
+epoch:  67, setp: 93000, loss:     0.0168, elapsed:       7318	seq_acc:     0.9375	7/25/87                       | <sos>1987-07-25<eos> --> 1987-07-25<eos>
+epoch:  67, setp: 93500, loss:     0.0320, elapsed:       7357	seq_acc:     0.8750	jul 25, 1987                  | <sos>1987-07-25<eos> --> 1987-07-25<eos>
+epoch:  67, setp: 94000, loss:     0.0375, elapsed:       7397	seq_acc:     0.8750	apr 21, 1992                  | <sos>1992-04-21<eos> --> 1992-04-21<eos>
+valid_loss:     0.7906,char_acc:     0.7315, seq_acc:     0.0076 
+epoch:  68, setp: 94500, loss:     0.0111, elapsed:       7436	seq_acc:     0.9375	may 23, 1994                  | <sos>1994-05-23<eos> --> 1994-05-23<eos>
+epoch:  68, setp: 95000, loss:     0.0070, elapsed:       7475	seq_acc:     0.9688	mar 28, 1992                  | <sos>1992-03-28<eos> --> 1992-03-28<eos>
+epoch:  68, setp: 95500, loss:     0.0069, elapsed:       7513	seq_acc:     0.9688	august 2, 1999                | <sos>1999-08-02<eos> --> 1999-08-02<eos>
+valid_loss:     0.7350,char_acc:     0.7481, seq_acc:     0.0090 
+epoch:  69, setp: 96000, loss:     0.0200, elapsed:       7553	seq_acc:     0.9062	mar 26, 2002                  | <sos>2002-03-26<eos> --> 2002-03-26<eos>
+epoch:  69, setp: 96500, loss:     0.0167, elapsed:       7592	seq_acc:     0.9375	october 17, 1983              | <sos>1983-10-17<eos> --> 1983-10-17<eos>
+epoch:  69, setp: 97000, loss:     0.0564, elapsed:       7632	seq_acc:     0.9688	apr 24, 1988                  | <sos>1988-04-24<eos> --> 1988-04-24<eos>
+valid_loss:     0.8121,char_acc:     0.7259, seq_acc:     0.0070 
+epoch:  70, setp: 97500, loss:     0.0507, elapsed:       7672	seq_acc:     0.8750	apr 10, 2004                  | <sos>2004-04-10<eos> --> 2004-04-10<eos>
+epoch:  70, setp: 98000, loss:     0.0271, elapsed:       7712	seq_acc:     0.9062	apr 15, 1976                  | <sos>1976-04-15<eos> --> 1976-04-15<eos>
+valid_loss:     0.9072,char_acc:     0.7169, seq_acc:     0.0050 
+epoch:  71, setp: 98500, loss:     0.0183, elapsed:       7751	seq_acc:     0.9062	october 27, 2000              | <sos>2000-10-27<eos> --> 2000-10-27<eos>
+epoch:  71, setp: 99000, loss:     0.0339, elapsed:       7791	seq_acc:     0.9375	5/2/12                        | <sos>2012-05-02<eos> --> 2012-05-02<eos>
+epoch:  71, setp: 99500, loss:     0.0034, elapsed:       7831	seq_acc:     0.9688	nov 24, 1988                  | <sos>1988-11-24<eos> --> 1988-11-24<eos>
+valid_loss:     0.8267,char_acc:     0.7293, seq_acc:     0.0072 
+epoch:  72, setp: 100000, loss:     0.0187, elapsed:       7869	seq_acc:     0.8750	november 14, 1994             | <sos>1994-11-14<eos> --> 1994-11-14<eos>
+epoch:  72, setp: 100500, loss:     0.0362, elapsed:       7910	seq_acc:     0.9062	friday, december 1, 1978      | <sos>1978-12-01<eos> --> 1988-12-01<eos>
+epoch:  72, setp: 101000, loss:     0.0023, elapsed:       7950	seq_acc:     1.0000	feb 20, 1998                  | <sos>1998-02-20<eos> --> 1998-02-20<eos>
+valid_loss:     0.7643,char_acc:     0.7460, seq_acc:     0.0126 
+epoch:  73, setp: 101500, loss:     0.0044, elapsed:       7990	seq_acc:     1.0000	sep 13, 1983                  | <sos>1983-09-13<eos> --> 1983-09-13<eos>
+epoch:  73, setp: 102000, loss:     0.0320, elapsed:       8030	seq_acc:     0.9375	9/18/92                       | <sos>1992-09-18<eos> --> 1992-09-18<eos>
+epoch:  73, setp: 102500, loss:     0.0119, elapsed:       8070	seq_acc:     0.9375	wednesday, september 7, 1977  | <sos>1977-09-07<eos> --> 1977-09-07<eos>
+valid_loss:     1.0409,char_acc:     0.6959, seq_acc:     0.0002 
+epoch:  74, setp: 103000, loss:     0.0047, elapsed:       8110	seq_acc:     1.0000	7/20/83                       | <sos>1983-07-20<eos> --> 1983-07-20<eos>
+epoch:  74, setp: 103500, loss:     0.0127, elapsed:       8150	seq_acc:     0.9688	dec 18, 1997                  | <sos>1997-12-18<eos> --> 1997-12-18<eos>
+epoch:  74, setp: 104000, loss:     0.0020, elapsed:       8190	seq_acc:     1.0000	july 31, 1994                 | <sos>1994-07-31<eos> --> 1994-07-31<eos>
+valid_loss:     0.8072,char_acc:     0.7447, seq_acc:     0.0100 
+epoch:  75, setp: 104500, loss:     0.0126, elapsed:       8231	seq_acc:     0.9375	may 5, 1979                   | <sos>1979-05-05<eos> --> 1979-05-05<eos>
+epoch:  75, setp: 105000, loss:     0.0441, elapsed:       8271	seq_acc:     0.8750	2/23/76                       | <sos>1976-02-23<eos> --> 1976-02-23<eos>
+epoch:  75, setp: 105500, loss:     0.0180, elapsed:       8311	seq_acc:     0.9062	october 6, 2010               | <sos>2010-10-06<eos> --> 2010-10-06<eos>
+valid_loss:     0.8991,char_acc:     0.7186, seq_acc:     0.0068 
+epoch:  76, setp: 106000, loss:     0.0029, elapsed:       8351	seq_acc:     1.0000	october 12, 1990              | <sos>1990-10-12<eos> --> 1990-10-12<eos>
+epoch:  76, setp: 106500, loss:     0.0077, elapsed:       8390	seq_acc:     0.9688	wednesday, february 27, 1985  | <sos>1985-02-27<eos> --> 1985-02-27<eos>
+valid_loss:     0.7463,char_acc:     0.7568, seq_acc:     0.0140 
+epoch:  77, setp: 107000, loss:     0.0191, elapsed:       8430	seq_acc:     0.9375	september 22, 1977            | <sos>1977-09-22<eos> --> 1977-09-22<eos>
+epoch:  77, setp: 107500, loss:     0.0077, elapsed:       8471	seq_acc:     0.9688	tuesday, june 4, 1996         | <sos>1996-06-04<eos> --> 1996-06-04<eos>
+epoch:  77, setp: 108000, loss:     0.0029, elapsed:       8512	seq_acc:     1.0000	april 8, 1991                 | <sos>1991-04-08<eos> --> 1991-04-08<eos>
+valid_loss:     0.8926,char_acc:     0.7482, seq_acc:     0.0074 
+epoch:  78, setp: 108500, loss:     0.0195, elapsed:       8552	seq_acc:     0.9062	thursday, december 14, 1995   | <sos>1995-12-14<eos> --> 1995-12-14<eos>
+epoch:  78, setp: 109000, loss:     0.0031, elapsed:       8592	seq_acc:     1.0000	march 14, 1994                | <sos>1994-03-14<eos> --> 1994-03-14<eos>
+epoch:  78, setp: 109500, loss:     0.0265, elapsed:       8631	seq_acc:     0.9688	december 4, 1984              | <sos>1984-12-04<eos> --> 1984-12-04<eos>
+valid_loss:     0.8687,char_acc:     0.6901, seq_acc:     0.0042 
+epoch:  79, setp: 110000, loss:     0.0058, elapsed:       8672	seq_acc:     1.0000	april 8, 1988                 | <sos>1988-04-08<eos> --> 1988-04-08<eos>
+epoch:  79, setp: 110500, loss:     0.0246, elapsed:       8712	seq_acc:     0.9375	7/7/73                        | <sos>1973-07-07<eos> --> 1973-07-07<eos>
+epoch:  79, setp: 111000, loss:     0.0056, elapsed:       8752	seq_acc:     1.0000	july 18, 1975                 | <sos>1975-07-18<eos> --> 1975-07-18<eos>
+valid_loss:     0.8922,char_acc:     0.7319, seq_acc:     0.0070 
+epoch:  80, setp: 111500, loss:     0.0011, elapsed:       8792	seq_acc:     1.0000	mar 28, 1978                  | <sos>1978-03-28<eos> --> 1978-03-28<eos>
+epoch:  80, setp: 112000, loss:     0.0163, elapsed:       8832	seq_acc:     0.9688	jun 5, 1998                   | <sos>1998-06-05<eos> --> 1998-06-05<eos>
+epoch:  80, setp: 112500, loss:     0.0029, elapsed:       8871	seq_acc:     1.0000	10/14/03                      | <sos>2003-10-14<eos> --> 2003-10-14<eos>
+valid_loss:     0.7568,char_acc:     0.7355, seq_acc:     0.0084 
+epoch:  81, setp: 113000, loss:     0.0318, elapsed:       8911	seq_acc:     0.9688	december 28, 2015             | <sos>2015-12-28<eos> --> 2025-12-28<eos>
+epoch:  81, setp: 113500, loss:     0.0176, elapsed:       8949	seq_acc:     0.9375	feb 5, 2002                   | <sos>2002-02-05<eos> --> 2002-02-05<eos>
+valid_loss:     0.7885,char_acc:     0.7429, seq_acc:     0.0086 
+epoch:  82, setp: 114000, loss:     0.0063, elapsed:       8988	seq_acc:     1.0000	friday, april 3, 1987         | <sos>1987-04-03<eos> --> 1987-04-03<eos>
+epoch:  82, setp: 114500, loss:     0.0314, elapsed:       9027	seq_acc:     0.9375	sep 20, 1996                  | <sos>1996-09-20<eos> --> 1996-09-20<eos>
+epoch:  82, setp: 115000, loss:     0.0281, elapsed:       9065	seq_acc:     0.8750	jan 29, 1986                  | <sos>1986-01-29<eos> --> 1986-01-29<eos>
+valid_loss:     0.8031,char_acc:     0.7431, seq_acc:     0.0086 
+epoch:  83, setp: 115500, loss:     0.0516, elapsed:       9105	seq_acc:     0.9062	july 17, 1985                 | <sos>1985-07-17<eos> --> 1985-07-17<eos>
+epoch:  83, setp: 116000, loss:     0.0032, elapsed:       9143	seq_acc:     1.0000	wednesday, may 3, 2000        | <sos>2000-05-03<eos> --> 2000-05-03<eos>
+epoch:  83, setp: 116500, loss:     0.0179, elapsed:       9182	seq_acc:     0.9062	thursday, november 3, 1977    | <sos>1977-11-03<eos> --> 1977-11-03<eos>
+valid_loss:     0.7799,char_acc:     0.7266, seq_acc:     0.0056 
+epoch:  84, setp: 117000, loss:     0.0074, elapsed:       9221	seq_acc:     0.9688	saturday, july 13, 1996       | <sos>1996-07-13<eos> --> 1996-07-13<eos>
+epoch:  84, setp: 117500, loss:     0.0738, elapsed:       9260	seq_acc:     0.8750	tuesday, october 28, 1980     | <sos>1980-10-28<eos> --> 1980-10-28<eos>
+epoch:  84, setp: 118000, loss:     0.0139, elapsed:       9299	seq_acc:     0.9375	august 10, 2015               | <sos>2015-08-10<eos> --> 2015-08-10<eos>
+valid_loss:     0.8734,char_acc:     0.7018, seq_acc:     0.0066 
+epoch:  85, setp: 118500, loss:     0.0132, elapsed:       9338	seq_acc:     0.9062	sep 10, 2008                  | <sos>2008-09-10<eos> --> 2008-09-10<eos>
+epoch:  85, setp: 119000, loss:     0.0077, elapsed:       9377	seq_acc:     0.9375	june 22, 2004                 | <sos>2004-06-22<eos> --> 2004-06-22<eos>
+epoch:  85, setp: 119500, loss:     0.0071, elapsed:       9416	seq_acc:     1.0000	wednesday, july 1, 2015       | <sos>2015-07-01<eos> --> 2015-07-01<eos>
+valid_loss:     0.7980,char_acc:     0.7382, seq_acc:     0.0116 
+epoch:  86, setp: 120000, loss:     0.0059, elapsed:       9454	seq_acc:     1.0000	aug 12, 1994                  | <sos>1994-08-12<eos> --> 1994-08-12<eos>
+epoch:  86, setp: 120500, loss:     0.0245, elapsed:       9493	seq_acc:     0.9062	oct 27, 2003                  | <sos>2003-10-27<eos> --> 2003-10-2<eos><eos>
+epoch:  86, setp: 121000, loss:     0.0280, elapsed:       9531	seq_acc:     0.9688	feb 10, 1973                  | <sos>1973-02-10<eos> --> 1973-02-10<eos>
+valid_loss:     0.8263,char_acc:     0.7259, seq_acc:     0.0102 
+epoch:  87, setp: 121500, loss:     0.0219, elapsed:       9570	seq_acc:     0.9375	march 16, 1981                | <sos>1981-03-16<eos> --> 1981-03-16<eos>
+epoch:  87, setp: 122000, loss:     0.0047, elapsed:       9609	seq_acc:     1.0000	friday, february 10, 2012     | <sos>2012-02-10<eos> --> 2012-02-10<eos>
+valid_loss:     0.8633,char_acc:     0.7255, seq_acc:     0.0052 
+epoch:  88, setp: 122500, loss:     0.0126, elapsed:       9649	seq_acc:     0.9688	june 26, 1974                 | <sos>1974-06-26<eos> --> 1974-06-22<eos>
+epoch:  88, setp: 123000, loss:     0.0389, elapsed:       9687	seq_acc:     0.8438	jun 7, 1977                   | <sos>1977-06-07<eos> --> 1977-06-07<eos>
+epoch:  88, setp: 123500, loss:     0.0175, elapsed:       9726	seq_acc:     0.9375	thursday, august 28, 1975     | <sos>1975-08-28<eos> --> 1975-08-28<eos>
+valid_loss:     0.8427,char_acc:     0.7365, seq_acc:     0.0108 
+epoch:  89, setp: 124000, loss:     0.0030, elapsed:       9766	seq_acc:     1.0000	tuesday, december 28, 2010    | <sos>2010-12-28<eos> --> 2010-12-28<eos>
+epoch:  89, setp: 124500, loss:     0.0093, elapsed:       9805	seq_acc:     0.9688	12/18/98                      | <sos>1998-12-18<eos> --> 1998-12-18<eos>
+epoch:  89, setp: 125000, loss:     0.0034, elapsed:       9843	seq_acc:     1.0000	oct 18, 2010                  | <sos>2010-10-18<eos> --> 2010-10-18<eos>
+valid_loss:     0.8327,char_acc:     0.7310, seq_acc:     0.0076 
+epoch:  90, setp: 125500, loss:     0.0221, elapsed:       9882	seq_acc:     0.9688	aug 30, 1979                  | <sos>1979-08-30<eos> --> 1979-08-30<eos>
+epoch:  90, setp: 126000, loss:     0.0081, elapsed:       9922	seq_acc:     0.9688	feb 28, 1999                  | <sos>1999-02-28<eos> --> 1999-02-28<eos>
+epoch:  90, setp: 126500, loss:     0.0075, elapsed:       9961	seq_acc:     0.9688	dec 18, 1986                  | <sos>1986-12-18<eos> --> 1986-12-18<eos>
+valid_loss:     0.9292,char_acc:     0.6959, seq_acc:     0.0038 
+epoch:  91, setp: 127000, loss:     0.0028, elapsed:       9999	seq_acc:     1.0000	may 27, 2000                  | <sos>2000-05-27<eos> --> 2000-05-27<eos>
+epoch:  91, setp: 127500, loss:     0.0331, elapsed:      10037	seq_acc:     0.9375	5/8/08                        | <sos>2008-05-08<eos> --> 2008-05-08<eos>
+epoch:  91, setp: 128000, loss:     0.0171, elapsed:      10076	seq_acc:     0.9375	may 10, 2011                  | <sos>2011-05-10<eos> --> 2011-05-10<eos>
+valid_loss:     0.9973,char_acc:     0.6987, seq_acc:     0.0050 
+epoch:  92, setp: 128500, loss:     0.0095, elapsed:      10115	seq_acc:     0.9688	sep 5, 1982                   | <sos>1982-09-05<eos> --> 1982-09-05<eos>
+epoch:  92, setp: 129000, loss:     0.0032, elapsed:      10153	seq_acc:     1.0000	september 22, 2003            | <sos>2003-09-22<eos> --> 2003-09-22<eos>
+valid_loss:     0.7920,char_acc:     0.7220, seq_acc:     0.0088 
+epoch:  93, setp: 129500, loss:     0.0099, elapsed:      10192	seq_acc:     0.9688	12/7/95                       | <sos>1995-12-07<eos> --> 1995-12-07<eos>
+epoch:  93, setp: 130000, loss:     0.0480, elapsed:      10230	seq_acc:     0.9688	1/17/11                       | <sos>2011-01-17<eos> --> 2011-01-17<eos>
+epoch:  93, setp: 130500, loss:     0.0062, elapsed:      10269	seq_acc:     0.9688	monday, january 23, 1989      | <sos>1989-01-23<eos> --> 1989-01-23<eos>
+valid_loss:     0.7275,char_acc:     0.7316, seq_acc:     0.0100 
+epoch:  94, setp: 131000, loss:     0.0040, elapsed:      10308	seq_acc:     1.0000	jul 24, 2012                  | <sos>2012-07-24<eos> --> 2012-07-24<eos>
+epoch:  94, setp: 131500, loss:     0.0154, elapsed:      10347	seq_acc:     0.9688	12/11/87                      | <sos>1987-12-11<eos> --> 1987-12-11<eos>
+epoch:  94, setp: 132000, loss:     0.0016, elapsed:      10385	seq_acc:     1.0000	3/14/99                       | <sos>1999-03-14<eos> --> 1999-03-14<eos>
+valid_loss:     0.7818,char_acc:     0.7262, seq_acc:     0.0068 
+epoch:  95, setp: 132500, loss:     0.0256, elapsed:      10425	seq_acc:     0.9375	7/24/13                       | <sos>2013-07-24<eos> --> 2013-07-24<eos>
+epoch:  95, setp: 133000, loss:     0.0113, elapsed:      10463	seq_acc:     0.9688	friday, june 8, 1990          | <sos>1990-06-08<eos> --> 1990-06-08<eos>
+epoch:  95, setp: 133500, loss:     0.0164, elapsed:      10502	seq_acc:     0.9375	oct 21, 1986                  | <sos>1986-10-21<eos> --> 1986-10-21<eos>
+valid_loss:     0.7478,char_acc:     0.7466, seq_acc:     0.0106 
+epoch:  96, setp: 134000, loss:     0.0240, elapsed:      10540	seq_acc:     0.9688	september 6, 1974             | <sos>1974-09-06<eos> --> 1974-09-06<eos>
+epoch:  96, setp: 134500, loss:     0.0053, elapsed:      10579	seq_acc:     0.9688	saturday, june 28, 1980       | <sos>1980-06-28<eos> --> 1980-06-28<eos>
+epoch:  96, setp: 135000, loss:     0.0081, elapsed:      10618	seq_acc:     0.9688	friday, april 1, 1983         | <sos>1983-04-01<eos> --> 1983-04-01<eos>
+valid_loss:     0.7990,char_acc:     0.7277, seq_acc:     0.0074 
+epoch:  97, setp: 135500, loss:     0.0069, elapsed:      10657	seq_acc:     1.0000	april 16, 1988                | <sos>1988-04-16<eos> --> 1988-04-16<eos>
+epoch:  97, setp: 136000, loss:     0.0719, elapsed:      10696	seq_acc:     0.8750	thursday, september 4, 1980   | <sos>1980-09-04<eos> --> 1980-09-04<eos>
+valid_loss:     0.8881,char_acc:     0.6993, seq_acc:     0.0086 
+epoch:  98, setp: 136500, loss:     0.0330, elapsed:      10736	seq_acc:     0.8750	dec 8, 2011                   | <sos>2011-12-08<eos> --> 2011-12-08<eos>
+epoch:  98, setp: 137000, loss:     0.0064, elapsed:      10775	seq_acc:     0.9688	7/29/14                       | <sos>2014-07-29<eos> --> 2014-07-29<eos>
+epoch:  98, setp: 137500, loss:     0.0203, elapsed:      10814	seq_acc:     0.9062	october 9, 1997               | <sos>1997-10-09<eos> --> 1997-10-09<eos>
+valid_loss:     0.8602,char_acc:     0.7214, seq_acc:     0.0030 
+epoch:  99, setp: 138000, loss:     0.0023, elapsed:      10854	seq_acc:     1.0000	apr 3, 1996                   | <sos>1996-04-03<eos> --> 1996-04-03<eos>
+epoch:  99, setp: 138500, loss:     0.0137, elapsed:      10894	seq_acc:     0.9375	5/5/86                        | <sos>1986-05-05<eos> --> 1986-05-05<eos>
+epoch:  99, setp: 139000, loss:     0.0055, elapsed:      10933	seq_acc:     0.9688	may 6, 2014                   | <sos>2014-05-06<eos> --> 2014-05-06<eos>
+valid_loss:     0.8232,char_acc:     0.7335, seq_acc:     0.0058 
+epoch: 100, setp: 139500, loss:     0.0125, elapsed:      10972	seq_acc:     0.9688	2/13/11                       | <sos>2011-02-13<eos> --> 2011-02-13<eos>
+epoch: 100, setp: 140000, loss:     0.0067, elapsed:      11011	seq_acc:     1.0000	april 23, 1979                | <sos>1979-04-23<eos> --> 1979-04-23<eos>
+epoch: 100, setp: 140500, loss:     0.0084, elapsed:      11050	seq_acc:     0.9375	sep 10, 1980                  | <sos>1980-09-10<eos> --> 1980-09-10<eos>
+valid_loss:     0.8183,char_acc:     0.7274, seq_acc:     0.0120 
