@@ -42,14 +42,11 @@ samples = ['너 오늘 아주 이뻐 보인다',
 
 label = [[1], [0], [1], [1], [0], [1]]
 
-
 morph_sample = [okt.morphs(x) for x in samples]
-
 
 tokenizer = preprocessing.text.Tokenizer(oov_token="<UKN>")   # oov: out of vocabulary
 tokenizer.fit_on_texts(samples+['SOS','EOS']) 
 print(tokenizer.word_index)  # 0에는 아무것도 할당되어 있지 않다.  --> pad를 할당하면 된다.
-
 
 word_to_index = tokenizer.word_index
 word_to_index['PAD'] = 0
