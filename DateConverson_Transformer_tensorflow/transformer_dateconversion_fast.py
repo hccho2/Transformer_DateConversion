@@ -2,7 +2,6 @@
 
 '''
 https://www.tensorflow.org/tutorials/text/transformer
-https://www.tensorflow.org/guide/function?hl=ko  ===> train 속도 차이가 엄청나다.
 
 '''
 

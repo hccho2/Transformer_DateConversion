@@ -6,10 +6,6 @@ keras Model, fit으로 train하기
 custom metrics 정의하기
 https://www.tensorflow.org/guide/keras/train_and_evaluate#custom_metrics
 
-
-1. 저장되는 파일의 확장자에 따라 h5, checkpoint로 다르게 저장된다.
-2. tf.keras.Model을 만들 때, training=True로 만들면, fit 중간에 validation에서도 training=True가 적용된다.
-
 '''
 
 import tensorflow as tf

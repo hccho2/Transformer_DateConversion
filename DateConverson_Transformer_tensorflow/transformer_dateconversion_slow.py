@@ -3,14 +3,6 @@
 '''
 https://www.tensorflow.org/tutorials/text/transformer
 
-enc_padding_mask: mask 영역에 attention이 가지 않도록 방지.
-
-
-fixed_padding방식으로 구현했다: 모든 mini batch의 길이가 동일하다.   ---> mini batch마다 다른 길이로 하려면(padding을 최소화) ---> dataset.map을 이용하면 된다.
-
-
-===> 구현은 되었는데, train 속도가 느리다. tf.GradientTape()을 사용하기 때문에  ----> @tf.function decorator를 사용해야 한다.
-@tf.function이 static graph로 바꿔서 계산한다.  ----> transformer_deteconversion_fast.py
 
 '''
 

@@ -17,3 +17,10 @@
 ## Data 만들기
 
 ## Data Preprocessing: Tensorflow Tokenizer vs torchtext
+
+
+
+
+## References
+- <https://www.tensorflow.org/tutorials/text/transformer>
+- <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>
