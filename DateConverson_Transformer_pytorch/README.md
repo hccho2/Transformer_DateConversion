@@ -13,5 +13,5 @@
 
 ## Pytorch Transformer API
 ![torch_transformer](./torch_transformer.png)
-- API의 padding의 불필요하게 복잡하다.
+- API의 padding이 불필요하게 복잡하다.
 - 6개의 padding을 넣어 줄 수 있다.
