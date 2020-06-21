@@ -14,4 +14,6 @@
 	- Keras
 	- Tensorflow 1.x
 
-## Tensorflow Tokenizer vs torchtext
+## Data 만들기
+
+## Data Preprocessing: Tensorflow Tokenizer vs torchtext
