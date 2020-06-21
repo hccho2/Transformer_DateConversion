@@ -3,4 +3,13 @@
 	- Tensorflow 2.x
 	- Keras
 	- Tensorflow 1.x
+
+## Requirements
+- torchtext
+- hparams
+- pandas
+- pytorch
+- tensorflwo 2.2
+
+
 ## Tensorflow Tokenizer vs torchtext
