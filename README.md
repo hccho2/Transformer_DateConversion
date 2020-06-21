@@ -129,7 +129,7 @@ for d in mydataset:
  [30 25 23  4 26  3  8  7]]
 
 ```
-- 위 코드이 결과는 mini-batch중에서 가장 긴 data를 기준으로 padding(padding token =1)이 된 것을 알 수 있다. Field에서 `fix_length`를 지정하면 고정된 길이의 data를 얻을 수 있다.
+- 위 코드의 결과는 mini-batch중에서 가장 긴 data를 기준으로 padding(padding token =1)이 된 것을 알 수 있다. Field에서 `fix_length`를 지정하면 고정된 길이의 data를 얻을 수 있다.
 ```
 TEXT = torchtext.data.Field(sequential=True, tokenize=tokenizer.morphs,batch_first=True,include_lengths=False,fix_length=15)
 
