@@ -24,7 +24,7 @@
 - 2가지 방식의 padding이 가능하도록 tensorflow, torchtext에서 api를 제공하고 있다.
 
 ## Data Preprocessing: Tensorflow Tokenizer vs torchtext
-# Tensorflow
+# Tensorflow-Tokenizer
 ```
 # coding: utf-8
 
