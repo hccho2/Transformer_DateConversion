@@ -96,7 +96,6 @@ samples = ['너 오늘 아주 이뻐 보인다',
            '아 오늘 진짜 너무 많이 정말로 짜증나', 
            '환상적인데, 정말 좋은거 같아']
 
-
 # 1. Field 정의
 tokenizer = Okt()
 TEXT = torchtext.data.Field(sequential=True, tokenize=tokenizer.morphs,batch_first=True,include_lengths=False)
@@ -110,7 +109,6 @@ for s in samples:
 for s in sequences:
     print(s.text)
 
-
 # 3. Dataset생성(word data)
 mydataset = torchtext.data.Dataset(sequences,fields)# Example ==> Dataset생성
 
@@ -118,17 +116,31 @@ mydataset = torchtext.data.Dataset(sequences,fields)# Example ==> Dataset생성
 TEXT.build_vocab(mydataset, min_freq=1, max_size=10000)
 print(TEXT.vocab.stoi)
 
-
 # Dataset생성(id로 변환된 data)
-mydataset = torchtext.data.Iterator(dataset=mydataset, batch_size = 6)
-
-
+mydataset = torchtext.data.Iterator(dataset=mydataset, batch_size = 3)
 
 for d in mydataset:
-    print(d.text)
+    print(d.text.numpy())
+
+[[11  2 20 22 16  1  1]
+ [ 5  3  6 18  1  1  1]
+ [19  2 28 12 15 27 29]]
+[[10  4  3  6 24 17  1  1]
+ [ 5 13  2  9 21 14  1  1]
+ [30 25 23  4 26  3  8  7]]
+
 ```
+- 위 코드이 결과는 mini-batch중에서 가장 긴 data를 기준으로 padding(padding token =1)이 된 것을 알 수 있다. Field에서 `fix_length`를 지정하면 고정된 길이의 data를 얻을 수 있다.
+```
+TEXT = torchtext.data.Field(sequential=True, tokenize=tokenizer.morphs,batch_first=True,include_lengths=False,fix_length=15)
 
-
+[[ 4 19  6 15  3 21  5  1  1  1  1  1  1  1  1]
+ [34  3 12  9 30  8  7 14 13  2  1  1  1  1  1]
+ [17  6 26 28  5 24 11  1  1  1  1  1  1  1  1]]
+[[16 20  9  8  7 10  3 29  4 23  2  1  1  1  1]
+ [ 4  2  8  7 10  3 25 27  5  1  1  1  1  1  1]
+ [ 2  2  6 32 18 22 31 33  1  1  1  1  1  1  1]]
+```
 ## References
 - <https://www.tensorflow.org/tutorials/text/transformer>
 - <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>
