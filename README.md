@@ -81,8 +81,7 @@ padded_sequence = preprocessing.sequence.pad_sequences(sequences, maxlen=15, pad
 
 
 ```
-
-
+- 위의 결과는 전체 data를 고정 길이로 padding했다. mini-batch별로 가변 길이 padding은 아래에서 tf.data.Dataset을 통해서 만들 수 있다. 구체적인 방식은 아래에서 살펴보자.
 
 
 # torchtext
@@ -141,6 +140,19 @@ TEXT = torchtext.data.Field(sequential=True, tokenize=tokenizer.morphs,batch_fir
  [ 4  2  8  7 10  3 25 27  5  1  1  1  1  1  1]
  [ 2  2  6 32 18 22 31 33  1  1  1  1  1  1  1]]
 ```
+
+# tf.data.Dataset
+- tf.data.Dataset을 이용해서, mini-batch를 효율적으로 만들 수 있다.
+- tensorflow에서 가변길이 방식의 padding을 만드는 방법을 살펴보자.
+
+
+
+
+
+
+
+
+
 ## References
 - <https://www.tensorflow.org/tutorials/text/transformer>
 - <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>
