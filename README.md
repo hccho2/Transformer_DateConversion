@@ -86,7 +86,47 @@ padded_sequence = preprocessing.sequence.pad_sequences(sequences, maxlen=15, pad
 
 
 # torchtext
+```
+import torchtext
+from konlpy.tag import Okt
+samples = ['너 오늘 아주 이뻐 보인다', 
+           '나는 오늘 기분이 더러워', 
+           '끝내주는데, 좋은 일이 있나봐', 
+           '나 좋은 일이 생겼어', 
+           '아 오늘 진짜 너무 많이 정말로 짜증나', 
+           '환상적인데, 정말 좋은거 같아']
 
+
+# 1. Field 정의
+tokenizer = Okt()
+TEXT = torchtext.data.Field(sequential=True, tokenize=tokenizer.morphs,batch_first=True,include_lengths=False)
+fields = [('text', TEXT)]
+
+# 2. torchtext.data.Example 생성
+sequences=[]
+for s in samples:
+    sequences.append(torchtext.data.Example.fromlist([s], fields))
+
+for s in sequences:
+    print(s.text)
+
+
+# 3. Dataset생성(word data)
+mydataset = torchtext.data.Dataset(sequences,fields)# Example ==> Dataset생성
+
+# 4. vocab 생성
+TEXT.build_vocab(mydataset, min_freq=1, max_size=10000)
+print(TEXT.vocab.stoi)
+
+
+# Dataset생성(id로 변환된 data)
+mydataset = torchtext.data.Iterator(dataset=mydataset, batch_size = 6)
+
+
+
+for d in mydataset:
+    print(d.text)
+```
 
 
 ## References
