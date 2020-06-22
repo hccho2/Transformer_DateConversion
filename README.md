@@ -152,7 +152,7 @@ print(sequences)
 [16, 2, 17, 18, 19, 20, 21],
 [1, 1, 1, 1, 23, 3, 1, 25]]
 ```
-- `tokenizer.texts_to_sequences`로 길이가 다른 list를 얻었다. 길이가 다르기 때문에, 다음과 같이 하면 error가 발생한다.
+- `tokenizer.texts_to_sequences`로 길이가 다른 list를 얻었다. 길이가 다르기 때문에, 다음과 같이 하면 error가 발생한다. 
 ```
  tf.data.Dataset.from_tensor_slices(sequences)
 ```
