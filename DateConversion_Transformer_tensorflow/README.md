@@ -6,9 +6,9 @@
 
 ## Attention 결과
 ![transformer-attention-february](./transformer-attention-february.png)
-
+- `february 27, 1994`: 영어의 월들 철자에 F가 포함된 유일한 월이 February입니다. 모델은 February에서 F에 attention을 (많이) 부여하여 2월로 변환합니다.
 ![transformer-attention-august](./transformer-attention-august.png)
-
+- g가 등장하는 유일한 월이 8월입니다. 모델은 August를 만나면 g에 attention을 주어서 8월로 변환합니다.
 
 ## Tensorflow 2.x 구현
 - tensorflow api에는 transformer가 없고, [tutorial](https://www.tensorflow.org/tutorials/text/transformer)에 transformer 구현이 있다.
