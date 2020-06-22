@@ -8,7 +8,8 @@
 
 
 ## Pytorch Transformer API
-- 먼저 전체 Encoder 구조를 보면, `nn.TransformerEncoderLayer`가 있고, 이를 포함하는 `nn.TransformerEncoder`가 있다.
+- 모델의 기본이 되는 것이 `MultiheadAttention`이 있다. 이 `MultiheadAttention`은 API로 드러나 있지는 않지만, `nn.TransformerEncoderLayer`, `nn.TransformerDecoderLayer`의 핵심 모듈이다.
+- Encoder 구조를 보면, `nn.TransformerEncoderLayer`가 있고, 이를 포함하는 `nn.TransformerEncoder`가 있다.
 - Decoder에서도 대칭적으로 `nn.TransformerDecoderLayer`가 있고, 이를 포함하는 `nn.TransformerDecoder`
 - 마지막으로 `nn.TransformerEncoder`, `nn.TransformerDecoder`를 결합한 `nn.Transformer`가 있다.
 - 모델을 만들때는 `nn.Transformer`만 사용해도 되고, 더 하위의 Layer를 사용해서 정밀하게 설계할 수도 있다.
