@@ -204,7 +204,7 @@ def load_date():
     dt = fake.date_object()  # ---> datetime.date(1983, 8, 11)
 
     try:
-        human_readable = format_date(dt, format=random.choice(FORMATS),  locale=random.choice(LOCALES)) # locale=random.choice(LOCALES)), locale='en_US'
+        human_readable = format_date(dt, format=random.choice(FORMATS),  locale='en_US') # locale=random.choice(LOCALES)), locale='en_US'
         human_readable = human_readable.lower()
         human_readable = human_readable.replace(',','')
         machine_readable = dt.isoformat()
