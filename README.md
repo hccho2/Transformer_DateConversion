@@ -186,7 +186,7 @@ for i, d in enumerate(dataset):
 ```
 ## 날짜 Data 만들기
 - train에 사용된 data는 [date.txt](https://github.com/hccho2/Transformer_DateConversion/blob/master/date.txt)
-- date.txt를 보면, human_readable dates와 machine_readable_date("YYYY-MM-DD")가 `_'로 연결되어 있다는 것을 알 수 있다. `human readable dates_machine readable dates`
+- date.txt를 보면, human_readable dates와 machine_readable_date("YYYY-MM-DD")가 `_`로 연결되어 있다는 것을 알 수 있다. `human readable dates_machine readable dates`
 - human_readable dates는 뒷부분을 ` `으로 채워서 길이가 모두 29이다.
 ```
 september 27, 1994           _1994-09-27
