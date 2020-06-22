@@ -10,9 +10,9 @@
 
 ## 구현 목록
 	- Pytorch: torch.nn.Transformer API를 사용.
-	- Tensorflow 2.x
-	- Keras
-	- Tensorflow 1.x
+	- Tensorflow 2.x Framework: `tf.GradientTape()`를 이용하여 train한다.
+	- Keras 방식: `Model.fit`, `Model.predict`
+	- Tensorflow 1.x Framework.
 
 ## Padding
 - 2가지 방식의 padding을 살펴보자.
