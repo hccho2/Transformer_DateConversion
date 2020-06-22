@@ -7,11 +7,9 @@
 		- src_key_padding_mask를 사용하여 encoder input의 paddin된 부분에는 attention이 갈 수 없도록 구현
 
 
-
-## torchtext
-
-
 ## Pytorch Transformer API
 ![torch_transformer](./torch_transformer.png)
 - API의 padding이 불필요하게 복잡하다.
 - 6개의 padding을 넣어 줄 수 있다.
+- padding중에서 `tgt_mask`이 가장 중요하다. decoder가 sequence를 생성할 때, 나중에 생성될 sequence가 앞쪽에 영향을 주면 안되기 때문이다. 이를 causal padding이라 부른다.
+- `src_key_padding_mask`는 선택적으로 줄 수 있는데, 이는 encoder의 입력 data에서 padding된 부분에는 attention을 줄 수 없도록 한다.
