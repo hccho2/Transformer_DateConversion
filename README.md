@@ -140,9 +140,21 @@ TEXT = torchtext.data.Field(sequential=True, tokenize=tokenizer.morphs,batch_fir
 
 # tf.data.Dataset
 - tf.data.Dataset을 이용해서, mini-batch를 효율적으로 만들 수 있다.
-- tensorflow에서 가변길이 방식의 padding을 만드는 방법을 살펴보자.
-
-
+- tensorflow에서 가변길이 방식의 padding을 만드는 방법을 살펴보자. 위의 tensorflow 코드를 이어서 살펴보자.
+```
+sequences = tokenizer.texts_to_sequences(morph_sample)  # 역변환: tokenizer.sequences_to_texts(sequences)
+print(sequences)
+[[5, 2, 6, 7, 8],
+[14, 1, 2, 1, 1, 11],
+[12, 1, 3, 4, 1, 1],
+[14, 3, 4, 15],
+[16, 2, 17, 18, 19, 20, 21],
+[1, 1, 1, 1, 23, 3, 1, 25]]
+```
+- `tokenizer.texts_to_sequences`로 길이가 다른 list를 얻었다. 길이가 다르기 때문에, 다음과 같이 하면 error가 발생한다.
+```
+ tf.data.Dataset.from_tensor_slices(sequences)
+```
 
 
 
