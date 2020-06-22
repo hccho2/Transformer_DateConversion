@@ -281,3 +281,4 @@ for i in range(10):
 - <https://www.tensorflow.org/tutorials/text/transformer>
 - <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>
 - Coursera - Neural machine translation with attention
+- <https://www.github.com/kyubyong/transformer>
