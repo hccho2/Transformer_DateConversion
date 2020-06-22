@@ -186,6 +186,19 @@ for i, d in enumerate(dataset):
 ```
 ## 날짜 Data 만들기
 - 다음 코드를 참고해서 만들면 된다. 이 코드를 이용해 생성해서, train에 사용된 data는 [date.txt](https://github.com/hccho2/Transformer_DateConversion/blob/master/date.txt)
+- date.txt를 보면, human_readable dates와 machine_readable_date("YYYY-MM-DD")가 `_'로 연결되어 있다는 것을 알 수 있다. `human readable dates_machine readable dates`
+- human_readable dates는 뒷부분을 ` `으로 채워서 길이가 모두 29이다.
+```
+september 27, 1994           _1994-09-27
+August 19, 2003              _2003-08-19
+2/10/93                      _1993-02-10
+10/31/90                     _1990-10-31
+TUESDAY, SEPTEMBER 25, 1984  _1984-09-25
+JUN 17, 2013                 _2013-06-17
+april 3, 1996                _1996-04-03
+
+```
+
 
 ```
 from faker import Faker  # pip install faker
