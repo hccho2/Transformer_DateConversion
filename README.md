@@ -45,7 +45,7 @@ label = [[1], [0], [1], [1], [0], [1]]
 morph_sample = [okt.morphs(x) for x in samples]
 
 tokenizer = preprocessing.text.Tokenizer(oov_token="<UKN>")   # oov: out of vocabulary
-tokenizer.fit_on_texts(samples+['SOS','EOS']) 
+tokenizer.fit_on_texts(samples+['sos','eos']) 
 print(tokenizer.word_index)  # 0에는 아무것도 할당되어 있지 않다.  --> pad를 할당하면 된다.
 
 word_to_index = tokenizer.word_index
@@ -121,12 +121,13 @@ for d in mydataset:
 [[11  2 20 22 16  1  1]
  [ 5  3  6 18  1  1  1]
  [19  2 28 12 15 27 29]]
+
 [[10  4  3  6 24 17  1  1]
  [ 5 13  2  9 21 14  1  1]
  [30 25 23  4 26  3  8  7]]
 
 ```
-- 위 코드의 결과는 mini-batch중에서 가장 긴 data를 기준으로 padding(padding token =1)이 된 것을 알 수 있다. Field에서 `fix_length`를 지정하면 고정된 길이의 data를 얻을 수 있다.
+- 위 코드의 결과는 mini-batch중에서 가장 긴 data를 기준으로 padding(padding token = 1)이 된 것을 알 수 있다. Field에서 `fix_length`를 지정하면 고정된 길이의 data를 얻을 수 있다.
 ```
 TEXT = torchtext.data.Field(sequential=True, tokenize=tokenizer.morphs,batch_first=True,include_lengths=False,fix_length=15)
 
@@ -155,8 +156,36 @@ print(sequences)
 ```
  tf.data.Dataset.from_tensor_slices(sequences)
 ```
+- `tf.data.Dataset.from_generator`를 이용하는 방법을 사용하면 된다.
+```
+def gen():
+    data_len= len(sequences)
+    sos_id = word_to_index['sos']
+    eos_id = word_to_index['eos']
+    while True:
+        sample_ids = np.random.choice(data_len,batch_size, replace=False)
+        sample_sequence = np.array(sequences)[sample_ids]
+        sample_sequence = [[sos_id]+s+[eos_id] for s in sample_sequence]
+        sequence_length = [len(s) for s in sample_sequence]
+        max_len = np.max(sequence_length)       
+        sample_sequence = preprocessing.sequence.pad_sequences(sample_sequence, maxlen=max_len, padding='post')
+        yield sample_sequence
 
+dataset = tf.data.Dataset.from_generator(gen,tf.int32,tf.TensorShape([batch_size,None]))
 
+for i, d in enumerate(dataset):
+    print(d.numpy())
+    if i > 0: break
+
+[[26 12  1  3  4  1  1 27]
+ [26 14  1  2  1  1 11 27]
+ [26 14  3  4 15 27  0  0]]
+
+[[26 14  3  4 15 27  0  0  0  0]
+ [26 16  2 17 18 19 20 21 27  0]
+ [26  1  1  1  1 23  3  1 25 27]]
+
+```
 
 
 
