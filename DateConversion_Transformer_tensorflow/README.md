@@ -20,3 +20,4 @@
 - custom layer들이 많기 때문에, keras화 시키는 것이 효율적이지는 못할 수도 있다.
 - `fit`활용하는 측면에서 장점이 있기도 하다.
 - sequence accuracy를 위해, custom metric `SequenceAccuracy(tf.keras.metrics.Metric)`를 구현했다.
+- `fit` 중간에 이루어지는 validation에서는 dropout이 적용되지 않아야 하지만, 구조상 문제로 dropout on 상태로 값을 계산합니다.
