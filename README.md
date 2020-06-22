@@ -14,8 +14,6 @@
 	- Keras
 	- Tensorflow 1.x
 
-## Data 만들기
-
 ## Padding
 - 2가지 방식의 padding을 살펴보자.
 ![padding](./padding.png)
@@ -186,8 +184,67 @@ for i, d in enumerate(dataset):
  [26  1  1  1  1 23  3  1 25 27]]
 
 ```
+## 날짜 Data 만들기
+- 다음 코드를 참고해서 만들면 된다. train에 사용된 data는 [date.txt]()
 
+```
+from faker import Faker  # pip install faker
+from tqdm import tqdm
+from babel.dates import format_date
+import random
+FORMATS = ['short','medium','long','full','full','full','full','full','full','full','full','full','full','d MMM YYY','d MMMM YYY',
+           'dd MMM YYY','d MMM, YYY','d MMMM, YYY','dd, MMM YYY','d MM YY','d MMMM YYY','MMMM d YYY','MMMM d, YYY','dd.MM.YY']
+LOCALES = ['en_US', 'ko']
+fake = Faker()
+def load_date():
+    """
+        Loads some fake dates 
+        :returns: tuple containing human readable string, machine readable string, and date object
+    """
+    dt = fake.date_object()  # ---> datetime.date(1983, 8, 11)
 
+    try:
+        human_readable = format_date(dt, format=random.choice(FORMATS),  locale=random.choice(LOCALES)) # locale=random.choice(LOCALES)), locale='en_US'
+        human_readable = human_readable.lower()
+        human_readable = human_readable.replace(',','')
+        machine_readable = dt.isoformat()
+        
+    except AttributeError as e:
+        return None, None, None
+
+    return human_readable, machine_readable, dt
+
+def load_dataset(m):
+    """
+        Loads a dataset with m examples and vocabularies
+        :m: the number of examples to generate
+    """
+    
+    human_vocab = set()
+    machine_vocab = set()
+    dataset = []
+    
+
+    for i in tqdm(range(m)):
+        h, m, _ = load_date()
+        if h is not None:
+            dataset.append((h, m))
+            human_vocab.update(tuple(h))
+            machine_vocab.update(tuple(m))
+    
+    human = dict(zip(sorted(human_vocab) + ['<unk>', '<pad>'], 
+                     list(range(len(human_vocab) + 2))))
+    inv_machine = dict(enumerate(sorted(machine_vocab)))
+    machine = {v:k for k,v in inv_machine.items()}
+ 
+    return dataset, human, machine, inv_machine
+
+#dataset, human_vocab, machine_vocab, inv_machine_vocab = load_dataset(10)
+
+for i in range(10):
+    print(load_date())
+
+```
 
 
 
