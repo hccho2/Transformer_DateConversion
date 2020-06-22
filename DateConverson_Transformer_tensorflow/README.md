@@ -13,7 +13,7 @@
 ## Tensorflow 2.x 구현
 - tensorflow api에는 transformer가 없고, [tutorial](https://www.tensorflow.org/tutorials/text/transformer)에 transformer 구현이 있다.
 - 이 tutorial 코드를 기반으로 구현했다.
-- Accuracy 측정: accuracy를 character단위로 측정할 수도 있고, sequence전체(YYYY-MM-DD)가 일치할 때만 일치한 것을도 측정할 수 있다.
+- Accuracy 측정: accuracy를 character단위로 측정할 수도 있고, sequence전체(YYYY-MM-DD)를 기준으로 측정할 수 있다.
 
 
 ## Keras 구현
