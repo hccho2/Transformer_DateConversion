@@ -28,7 +28,7 @@ jun 17, 2013                   ==> 2013-06-17
 - Pytorch: torch.nn.Transformer API를 사용. padding방식을 달리하여 2가지로 구현되어 있다.
 - Tensorflow 2.x Framework: `tf.GradientTape()`를 이용하여 train한다.
 - Keras 방식: `Model.fit`, `Model.predict`
-- Tensorflow 1.x Framework: <https://github.com/hccho2/Transformer_DateConversion/tree/master/DateConversion_Transformer_tensorflow_1x>
+- Tensorflow 1.x Framework: High Level API인 `tf.estimator.Estimator`를 이용하여 구현. <https://github.com/hccho2/Transformer_DateConversion/tree/master/DateConversion_Transformer_tensorflow_1x>
 
 ## Padding
 - 2가지 방식의 padding을 살펴보자.
