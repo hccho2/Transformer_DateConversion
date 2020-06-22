@@ -16,5 +16,5 @@
 - `(memory_mask, memory_key_padding_mask)`는 Decoder의 위쪽 attention으로 들어간다.
 - padding중에서 `tgt_mask`가 가장 중요하다. decoder가 sequence를 생성할 때, 나중에 생성될 sequence가 앞쪽에 영향을 주면 안되기 때문이다. 이를 causal padding이라 부른다.
 - `src_key_padding_mask`는 선택적으로 줄 수 있는데, 이는 encoder의 입력 data에서 padding된 부분에는 attention을 줄 수 없도록 한다.
-- Tensorflow 구현에서는 2개의 mask가 결합되어 모두 3개의 mask로 구현되었다.
+- Tensorflow 구현에서는 2개의 mask가 각각 결합되어 모두 3개의 mask만 사용했다.
 - API를 활용하는 방식이라, Attention Plot을 하기 어렵다.
