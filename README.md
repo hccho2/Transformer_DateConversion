@@ -185,7 +185,7 @@ for i, d in enumerate(dataset):
 
 ```
 ## 날짜 Data 만들기
-- 다음 코드를 참고해서 만들면 된다. train에 사용된 data는 [date.txt]()
+- 다음 코드를 참고해서 만들면 된다. train에 사용된 data는 [date.txt](https://github.com/hccho2/Transformer_DateConversion/blob/master/date.txt)
 
 ```
 from faker import Faker  # pip install faker
@@ -251,3 +251,4 @@ for i in range(10):
 ## References
 - <https://www.tensorflow.org/tutorials/text/transformer>
 - <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>
+- Coursera - Neural machine translation with attention
