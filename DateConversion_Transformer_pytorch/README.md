@@ -8,6 +8,10 @@
 
 
 ## Pytorch Transformer API
+- 먼저 전체 Encoder 구조를 보면, `nn.TransformerEncoderLayer`가 있고, 이를 포함하는 `nn.TransformerEncoder`가 있다.
+- Decoder에서도 대칭적으로 `nn.TransformerDecoderLayer`가 있고, 이를 포함하는 `nn.TransformerDecoder`
+- 마지막으로 `nn.TransformerEncoder`, `nn.TransformerDecoder`를 결합한 `nn.Transformer`가 있다.
+- 모델을 만들때는 `nn.Transformer`만 사용해도 되고, 더 하위의 Layer를 사용해서 정밀하게 설계할 수도 있다.
 ![torch_transformer](./torch_transformer.png)
 - API의 padding이 불필요하게 복잡하다. padding이 6개로 나누어져 있다. 2개씩 Multihead Attention으로 들어간다. 
 ![torch_transformer_mask](./torch_transformer_mask.png)
