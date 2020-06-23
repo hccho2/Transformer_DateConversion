@@ -1,7 +1,7 @@
 # Date Conversion Transformer: Tensorflow 2.x vs Pytorch vs Keras vs Tensorflow 1.x
 ## 목적: 다양한 날짜 형식을 YYYY-MM-DD 형식으로 변환
 - human readable date를 machine readable date로 변환
-- dropout이 적용되어 있어, 오타가 있어도 변환이 된다. 오타가 포함되지 않은 data로 train했다.
+- dropout이 적용되어 있어, 약간의 오타가 있어도 변환이 된다(train은 오타가 포함되지 않은 data로 수행됨)
 - train data에 오타를 포함시키거나, 입력 data에 masking을 하면, 정확도가 향상될 수 있다.
 ```
 september 27, 1994             ==> 1994-09-27
