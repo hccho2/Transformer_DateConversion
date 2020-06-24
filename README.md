@@ -179,7 +179,7 @@ print(sequences)
 ```
  tf.data.Dataset.from_tensor_slices(sequences)
 ```
-- `tf.data.Dataset.from_generator`를 이용하는 방법을 사용하면 된다.
+- `tf.data.Dataset.from_generator`를 이용하면 된다.
 ```
 def gen():
     data_len= len(sequences)
