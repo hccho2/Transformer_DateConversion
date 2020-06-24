@@ -17,7 +17,8 @@ tuesday, september 25, 1984    ==> 1984-09-25
 jun 17, 2013                   ==> 2013-06-17
 ```
 
-- Input에 Masking을 직접 적용하여 train했을 때, 오타 대한 Test 결과(Input Masking 적용 모델은 이 repository에는 미반영)
+- Input에 Masking을 직접 적용하여 train했을 때, 오타에 대한 Test 결과
+- Input Masking 적용 모델은 이 repository에는 반영되어 있지 않습니다.
 ```
 september 27, 1994             ==> 1994-09-27   <---- 오타 없음
 setember 27, 1994              ==> 1994-09-27   <---- p자 없음
