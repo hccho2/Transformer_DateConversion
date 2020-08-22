@@ -208,6 +208,10 @@ for i, d in enumerate(dataset):
  [26 16  2 17 18 19 20 21 27  0]
  [26  1  1  1  1 23  3  1 25 27]]
 
+
+iterator = iter(dataset)
+d = iterator.get_next()
+
 ```
 ## 날짜 Data 만들기
 - train에 사용된 data는 [date.txt](https://github.com/hccho2/Transformer_DateConversion/blob/master/date.txt)
