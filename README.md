@@ -102,7 +102,7 @@ padded_sequence = preprocessing.sequence.pad_sequences(sequences, maxlen=15, pad
 
 ```
 - 위의 결과는 전체 data를 고정 길이로 padding했다. mini-batch별로 가변 길이 padding은 아래에서 tf.data.Dataset을 통해서 만들 수 있다. 구체적인 방식은 아래에서 살펴보자.
-- 참고로, `preprocessing.sequence.pad_sequences`와 같은 기능할 하는 pytorch 함수는 `torch.nn.utils.rnn.pad_sequence`
+- 참고로, `preprocessing.sequence.pad_sequences`와 같은 기능을 하는 pytorch 함수는 `torch.nn.utils.rnn.pad_sequence`
 
 
 # torchtext
