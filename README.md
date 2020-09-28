@@ -132,11 +132,11 @@ for s in sequences:
 mydataset = torchtext.data.Dataset(sequences,fields)# Example ==> Dataset생성
 
 # 4. vocab 생성
-TEXT.build_vocab(mydataset, min_freq=1, max_size=10000)
+TEXT.build_vocab(mydataset, min_freq=1, max_size=10000)   # <unk>, <pad> token이 생성된다.
 print(TEXT.vocab.stoi)
 
 # Dataset생성(id로 변환된 data)
-mydataset = torchtext.data.Iterator(dataset=mydataset, batch_size = 3)
+mydataset = torchtext.data.Iterator(dataset=mydataset, batch_size = 3)  # padding이 되면서, 같은 길이로 만들어진다.
 
 for d in mydataset:
     print(d.text.numpy())
