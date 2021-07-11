@@ -68,7 +68,7 @@ label = [[1], [0], [1], [1], [0], [1]]
 morph_sample = [okt.morphs(x) for x in samples]
 
 tokenizer = preprocessing.text.Tokenizer(oov_token="<UKN>")   # oov: out of vocabulary
-tokenizer.fit_on_texts(samples+['sos','eos']) 
+tokenizer.fit_on_texts(samples+['sos','eos']) # 또는 tokenizer.fit_on_texts(morph_sample+['sos','eos'])
 print(tokenizer.word_index)  # 0에는 아무것도 할당되어 있지 않다.  --> pad를 할당하면 된다.
 
 word_to_index = tokenizer.word_index
