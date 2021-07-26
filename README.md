@@ -71,6 +71,7 @@ tokenizer = preprocessing.text.Tokenizer(oov_token="<UKN>")   # oov: out of voca
 
 # fit_on_texts에 morph_sample와 같이 list of list가 입력되면, 이미 token으로 나누어져 있는 것으로 간주된다. 
 # In the case where texts contains lists, we assume each entry of the lists to be a token. https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/text/Tokenizer#fit_on_texts
+# list of list가 아니면, 공백으로 나눈다. split용 함수를 넘겨줄 수도 있다.
 tokenizer.fit_on_texts(samples+['sos','eos']) # 또는 tokenizer.fit_on_texts(morph_sample+['sos','eos'])
 print(tokenizer.word_index)  # 0에는 아무것도 할당되어 있지 않다.  --> pad를 할당하면 된다.
 
